@@ -1,3 +1,3 @@
-/home/z/CLionProjects/ImgTest/cmake-build-debug/CMakeFiles/ImgTest.dir
-/home/z/CLionProjects/ImgTest/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/z/CLionProjects/ImgTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/z/桌面/git/Vision/Vision-Video/cmake-build-debug/CMakeFiles/ImgTest.dir
+/home/z/桌面/git/Vision/Vision-Video/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/z/桌面/git/Vision/Vision-Video/cmake-build-debug/CMakeFiles/rebuild_cache.dir

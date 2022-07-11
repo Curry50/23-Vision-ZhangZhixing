@@ -5,7 +5,7 @@ VideoCapture video;
 Mat img,smallImg;
 int main() {
     detector dt;
-    dt.cap("/home/z/CLionProjects/ImgTest/video1.avi");
+    dt.cap("video1.avi");
     while(1)
     {
         dt.pre_process();

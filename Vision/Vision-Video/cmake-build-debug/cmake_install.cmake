@@ -1,4 +1,4 @@
-# Install script for directory: /home/z/CLionProjects/ImgTest
+# Install script for directory: /home/z/桌面/git/Vision/Vision-Video
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/z/CLionProjects/ImgTest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/z/桌面/git/Vision/Vision-Video/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
