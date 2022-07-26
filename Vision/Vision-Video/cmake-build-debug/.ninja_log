@@ -1,0 +1,5 @@
+# ninja log v5
+4	30580	1658761376028863174	CMakeFiles/ImgTest.dir/Predict.cpp.o	175959386715c9cd
+3	3142	1658832634341258776	CMakeFiles/ImgTest.dir/RunesDetector.cpp.o	e750e5f0daff41f3
+1	3456	1658831865466150407	CMakeFiles/ImgTest.dir/main.cpp.o	60c6bfe555975b46
+3142	3550	1658832634745264415	ImgTest	47a123296b93cf6e
