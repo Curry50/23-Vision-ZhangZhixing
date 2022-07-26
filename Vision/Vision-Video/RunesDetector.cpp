@@ -45,7 +45,7 @@ void detector::find_contours() {
         double area = contourArea(contours[t]);
         float AreaRatio = contourArea(contours[t]) / (rect.width * rect.height);
         if (aspectRatio <= 0.65 && aspectRatio > 0.2 && AreaRatio > 0.1) { //通过外接矩形的宽高比、面积比进行第一轮筛选
-            rectangle(smallImg, rect, Scalar(0, 0, 255), 2, 8, 0);
+            //rectangle(smallImg, rect, Scalar(0, 0, 255), 2, 8, 0);
             RotatedRect rrect = minAreaRect(contours[t]);
             rrect.points(points);
             //存储最小外接矩形的边界点和中心点，便于后续灯条配对

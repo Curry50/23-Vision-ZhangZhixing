@@ -1,0 +1,8 @@
+prefix=/home/z/vision_ws/devel
+
+Name: vision_markers
+Description: Description of vision_markers
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
