@@ -66,12 +66,9 @@ void detector::matching(int m) {
         for (int j = 1 + i; j < counter; j++) {
             Prediction pd;
             //进行灯条配对，通过灯条的斜率和灯条间的相对距离以及灯条的面积大小进行第二轮筛选
-            k1 = double(pt1[i].y - pt2[j].y) / double(pt1[i].x - pt2[j].x);
-            k2 = double(pt1[i].y - pt2[j].y) / double(pt1[i].x - pt2[j].x);
             k3 = double(pt[i].y - pt[j].y) / double(pt[i].x - pt[j].x);
             k4 = double(pt1[i].x - pt2[i].x) / double(pt1[i].y - pt2[i].y);
             d1 = sqrt(pow(pt1[i].x - pt2[i].x, 2) + pow(pt1[i].y - pt2[i].y, 2));
-            d2 = sqrt(pow(pt1[j].x - pt2[j].x, 2) + pow(pt1[j].y - pt2[j].y, 2));
             d3 = sqrt(pow(pt[i].x - pt[j].x, 2) + pow(pt[i].y - pt[j].y, 2));
             x_distance_i = sqrt(pow(left_up[i].x - right_up[i].x, 2) + pow(right_up[i].y - left_up[i].y, 2));
             y_distance_i = sqrt(pow(left_up[i].x - left_down[i].x, 2) + pow(left_up[i].y - left_down[i].y, 2));
