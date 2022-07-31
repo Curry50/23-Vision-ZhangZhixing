@@ -11,7 +11,7 @@ Kalm X;
 Kalm Y;
 int main()
 {
-    VideoCapture cap("/opt/2023华南虎暑期夏令营视觉组测试文件/Big.avi");
+    VideoCapture cap("Big.avi");
     Mat image,binary;
     for(int k=0;;k++){
         cap.read(image);
