@@ -72,7 +72,7 @@ int main()
                             middle = distance;
                     }
                 }
-                if( middle > 60){                               。
+                if( middle > 60){                               
                     //cv::circle(binary,Point(rrect.center.x,rrect.center.y),15,cv::Scalar(0,255,0),4);
                     X.kalmanFilterFun(rrect.center.x);
                     Y.kalmanFilterFun(rrect.center.y);
